@@ -267,7 +267,7 @@ def update_database():
 # =============================
 
 st.set_page_config(page_title="SDG-AI Intelligence Platform", layout="wide")
-st.title("SDG-AI: An Intelligent Platform for webscrapping SDG data (for YG and TG only) ")
+st.title("SDG-AI: An Intelligent Platform for webscrapping SDG data ")
 
 st.sidebar.header("Controls")
 
