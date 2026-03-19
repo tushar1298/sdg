@@ -266,13 +266,13 @@ def update_database():
 # STREAMLIT UI
 # =============================
 
-st.set_page_config(page_title="SDG AI Intelligence Platform", layout="wide")
-st.title("🌍 SDG AI Intelligence Platform (Advanced Scraper)")
+st.set_page_config(page_title="SDG-AI Intelligence Platform", layout="wide")
+st.title("🌍 SDG-AI: An Intelligent Platform for webscrapping SDG data (for YG and TG only) ")
 
 st.sidebar.header("Controls")
 
 if st.sidebar.button("🔄 Update Database"):
-    with st.spinner("Collecting global SDG data..."):
+    with st.spinner("Collecting global SDG resources..."):
         df = update_database()
     st.success(f"Updated! Total records: {len(df)}")
 
@@ -324,3 +324,4 @@ if os.path.exists(UPDATE_LOG):
 
 st.markdown("---")
 st.markdown("Autonomous Multi-Source SDG AI Discovery Engine")
+st.markdown("Designed by Tushar Gupta")
